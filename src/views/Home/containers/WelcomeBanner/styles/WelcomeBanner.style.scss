@@ -1,0 +1,42 @@
+@import '@styles/_variables.scss';
+
+.welcome-banner {
+    background-color: $white;
+    border-radius: 12px;
+    width: 28%;
+    margin: 10em auto;
+    padding: 2em;
+    box-shadow: $common-shadow;
+    @media only screen and (max-width: 1605px) {
+        width: 35%;
+        margin: 6em auto;
+    }
+    .welcome-title {
+        font-size: 1.5em;
+        font-family: Roboto-Medium;
+        margin-bottom: 1.5em;
+    }
+    .welcome-subtext {
+        font-size: 20px;
+        margin-bottom: 2em;
+        line-height: 30px;
+    }
+    .info-section-title {
+        color: $title-color;
+        font-size: 1.5em;
+        font-family: Roboto-Medium;
+    }
+    .info-input-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        .input-box-container {
+            width: 48%;
+        }
+    }
+    .submit-btn {
+        min-height: 56px;
+        font-family: Roboto-Regular;
+    }
+}

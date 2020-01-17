@@ -1,0 +1,22 @@
+@import '@styles/_variables.scss';
+
+.main-btn {
+    border-radius: 28px;
+    border-color: transparent;
+    min-height: 40px;
+    padding: 0 2em;
+    font-family: Roboto-Medium;
+    font-size: 1em;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+    &.secondary {
+        background-color: $green-btn;
+        color: $green-text;
+    }
+    &.primary {
+        background-color: $blue-btn;
+        color: $white;
+    }
+}

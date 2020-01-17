@@ -1,0 +1,22 @@
+@import '@styles/_variables.scss';
+
+.input-box-container {
+    img.input-icon {
+        position: absolute;
+        padding: 12px;
+    }
+    input.main-input {
+        width: 100%;
+        padding: 0.8em;
+        border-radius: 8px;
+        border: 1.5px solid $field-border;
+        font-family: Roboto-Regular;
+        font-size: 1em;
+        &:focus {
+            outline: none;
+        }
+        &.with-icon {
+            padding-left: 2.5em;
+        }
+    }
+}

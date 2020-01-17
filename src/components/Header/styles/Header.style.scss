@@ -1,5 +1,37 @@
-@import '@styles/_colors.scss';
+@import '@styles/_variables.scss';
 
-.application-header {
-    
+nav.application-header {
+    background-color: $white;
+    min-height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+    box-shadow: $common-shadow;
+    .left-nav {
+        display: flex;
+        align-items: center;
+        img.app-logo {
+            width: 4em;
+            cursor: pointer;
+            margin-right: 2em;
+        }
+        .left-nav-options {
+            display: flex;
+            min-height: 5em;
+            color: $grey-text;
+            .left-nav-option-item {
+                padding: 0 1.4em;
+                display: inline-flex;
+                align-items: center;
+                cursor: pointer;
+                &.selected {
+                    color: $green-text;
+                    background-color: $green-btn;
+                    border-bottom: 2px solid $green-text;
+                    font-family: Roboto-Medium;
+                }
+            }
+        }
+    }
 }

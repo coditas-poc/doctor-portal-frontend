@@ -47,6 +47,7 @@ module.exports = {
       "@actions": path.resolve(__dirname, "src/actions"),
       "@assets": path.resolve(__dirname, "src/assets"),
       "@components": path.resolve(__dirname, "src/components"),
+      "@basecomponents": path.resolve(__dirname, "src/basecomponents"),
       "@constants": path.resolve(__dirname, "src/constants"),
       "@middleware": path.resolve(__dirname, "src/middleware"),
       "@models": path.resolve(__dirname, "src/models"),

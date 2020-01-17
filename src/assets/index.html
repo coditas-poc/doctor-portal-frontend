@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=1920, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>myHealthID - Provider</title>
+
+    <!-- <link rel="shortcut icon" href="favicon.png" /> -->
+  </head>
+
+  <body>
+    <div id="root">
+      <!-- Placeholder to Render the Main Body Content Component. -->
+    </div>
+  </body>
+  <script type="text/javascript">
+    const root = document.getElementById("root");
+    const loader = document.getElementById("loader-anim");
+    if (root.innerHTML !== "") {
+      loader.classList.remove("d-block");
+      loader.className += " d-none";
+    }
+  </script>
+</html>

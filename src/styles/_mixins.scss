@@ -1,0 +1,28 @@
+//mixins for media queries
+@mixin for-phone {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin for-laptoplg {
+  @media (max-width: 1600px) {
+    @content;
+  }
+}
+@mixin for-laptop {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin for-laptopsm {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin for-desktoplg {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": false,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "lib": ["es6", "es7", "dom"],
+    "baseUrl": "",
+    "paths": {
+      "@actions/*": ["src/actions/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@constants/*": ["src/constants/*"],
+      "@middleware/*": ["src/middleware/*"],
+      "@models/*": ["src/models/*"],
+      "@reducers/*": ["src/reducers/*"],
+      "@services/*": ["src/services/*"],
+      "@store/*": ["src/store/*"],
+      "@styles/*": ["src/styles/*"],
+      "@views/*": ["src/views/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+
+  "exclude": ["dist", "node_modules"]
+}
